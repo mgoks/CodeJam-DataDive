@@ -26,7 +26,7 @@ import java.lang.Math;
 
 public class Analysis implements Runnable 
 {
-	private static final int SAMPLE_SIZE = 5000;
+	private static final int SAMPLE_SIZE = 1000;
 	
 	// Number of cities in the database
 	// Do not forget to update this value if the data set has a different number of cities
