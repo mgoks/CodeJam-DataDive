@@ -13,7 +13,7 @@ public class JavaLauncher
         public static void main(String[] args) throws InterruptedException 
         {
                 List<Thread> threadList = new ArrayList<Thread>();
-                for (int i = 0; i < 3; i++) 
+                for (int i = 0; i < 2; i++) 
                 {
                 	Thread t1 = new Thread(new Analysis());
                         t1.start();
@@ -24,6 +24,6 @@ public class JavaLauncher
                         // waits for this thread to die
                         t.join();
                 }
-                System.out.println("Avg: " + Analysis.ratioSum / 3.0);
+                System.out.println("Avg: " + Analysis.ratioSum / 2.0);
         }	
 }
