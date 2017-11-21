@@ -5,7 +5,7 @@
  * @author Halil Murat
  */
 
-package waterToPower;
+package waterForPower;
 
 import java.util.HashSet;
 

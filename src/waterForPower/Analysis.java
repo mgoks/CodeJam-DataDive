@@ -13,7 +13,7 @@
  * The following program is to test this hypothesis. For this us-household-income-statistics.csv dataset is used.
  */
 
-package waterToPower;
+package waterForPower;
 
 import java.io.File;
 import java.io.FileNotFoundException;

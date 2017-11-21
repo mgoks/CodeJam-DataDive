@@ -3,7 +3,7 @@
  * Group Foo
  */
 
-package waterToPower;
+package waterForPower;
 
 import java.util.ArrayList;
 import java.util.List;
